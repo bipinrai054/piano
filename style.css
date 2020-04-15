@@ -1,4 +1,95 @@
 body{
     margin: 0px;
     padding: 0px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+    font-family: 'Indie Flower', cursive;
+}
+.heading{
+    text-align: center;
+}
+.piano{
+    margin: 10px 10px;
+}
+.main{
+    margin: -323px -223px;
+    display: inline-block;
+    padding: 401px 333px; 
+    width:100%;
+    /* text-align: center; */
+}
+.blackKeys1{
+    height: 130px;
+    width: 27px;
+    position:relative;
+    bottom: 65px;
+    right:12px;
+}
+.blackKeys2{
+    height: 130px;
+    width: 27px;
+    position:relative;
+    bottom: 65px;
+    right:245px;
+}
+.blackKeys3{
+    height: 130px;
+    width: 27px;
+    position:relative;
+    bottom: 65px;
+    right:15px;
+}
+.blackKeys4{
+    height: 131px;
+    width: 26px;
+    position: relative;
+    bottom: 64px;
+    right: 20px;
+}
+.blackKeys5{
+    height: 130px;
+    width: 27px;
+    position:relative;
+    bottom: 65px;
+    right:15px;
+}
+.whiteKeysLeft1{
+    height:195px;
+    width: 323px;
+    margin-right: -285px;
+    margin-left: 22px;
+}
+.whiteKeysLeft2{
+    height:195px;
+    width: 323px;
+    margin-right: -282px;
+    margin-left: -187px;
+}
+.dMaj{
+ height: 195px;
+ width: 323px;
+ margin-left: -70px;
+}
+.eMaj{
+    height: 195px;
+    width: 323px;
+    margin-left: -358px;
+}
+.gMaj{
+    height: 195px;
+    width: 323px;
+    margin-left: -74px;
+    margin-right: -226px;
+}
+.aMaj{
+    height: 195px;
+    width: 323px;
+    margin-left: -81px;
+    margin-right: -228px;
+}
+.bMaj{
+    height: 195px;
+    width: 323px;
+    margin-left: -128px;
+    margin-right: -210px;
 }
